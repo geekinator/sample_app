@@ -208,3 +208,109 @@ Started GET "/pages/contact" for 127.0.0.1 at 2011-06-02 15:57:03 -0700
   Processing by PagesController#contact as HTML
 Rendered pages/contact.html.erb within layouts/application (2.2ms)
 Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-06-02 16:38:31 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 46ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-06-02 16:38:55 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-06-02 16:42:42 -0700
+
+SyntaxError (/Users/mdavis/Sites/rails/sample_app/app/helpers/application_helper.rb:5: syntax error, unexpected '=', expecting ';' or '\n'
+    base_title = "Ruby on Rails Tutorial Sample App"
+                ^
+/Users/mdavis/Sites/rails/sample_app/app/helpers/application_helper.rb:12: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.8ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-06-02 16:44:12 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (88.4ms)
+Completed   in 103ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x771c44>:0x76c49c>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3: 	<head>
+    4: 		<title><%= title %></title>
+    5: 		<%= csrf_meta_tag %>
+    6: 	</head>
+    7: <body>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb___683202375_3866780__334609826'
+
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.9ms)
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.8ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-06-02 16:45:56 -0700
+
+SyntaxError (/Users/mdavis/Sites/rails/sample_app/app/helpers/application_helper.rb:5: syntax error, unexpected '=', expecting ';' or '\n'
+    base_title = "Ruby on Rails Tutorial Sample App"
+                ^
+/Users/mdavis/Sites/rails/sample_app/app/helpers/application_helper.rb:12: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.5ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-06-02 16:46:31 -0700
+
+SyntaxError (/Users/mdavis/Sites/rails/sample_app/app/helpers/application_helper.rb:5: syntax error, unexpected '=', expecting ';' or '\n'
+    base_title = "Ruby on Rails Tutorial Sample App"
+                ^
+/Users/mdavis/Sites/rails/sample_app/app/helpers/application_helper.rb:8: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-06-02 16:46:37 -0700
+
+SyntaxError (/Users/mdavis/Sites/rails/sample_app/app/helpers/application_helper.rb:5: syntax error, unexpected '=', expecting ';' or '\n'
+    base_title = "Ruby on Rails Tutorial Sample App"
+                ^
+/Users/mdavis/Sites/rails/sample_app/app/helpers/application_helper.rb:12: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/mdavis/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-06-02 16:46:59 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-06-02 16:47:12 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-06-02 16:47:16 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
